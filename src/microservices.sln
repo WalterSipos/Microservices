@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{21E475FE-B82D-486C-9865-0E237FFB9E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\DiscountMicroservice\Discount.API\Discount.API.csproj", "{BBBFABF6-FDED-48E3-A87D-DF9F8FCA49BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\DiscountMicroservice\Discount.API\Discount.API.csproj", "{BBBFABF6-FDED-48E3-A87D-DF9F8FCA49BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "Services\DiscountMicroservice\Discount.Grpc\Discount.Grpc.csproj", "{94DB15D7-B848-4569-945D-20BCA1B21127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{BBBFABF6-FDED-48E3-A87D-DF9F8FCA49BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBBFABF6-FDED-48E3-A87D-DF9F8FCA49BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBBFABF6-FDED-48E3-A87D-DF9F8FCA49BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94DB15D7-B848-4569-945D-20BCA1B21127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94DB15D7-B848-4569-945D-20BCA1B21127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94DB15D7-B848-4569-945D-20BCA1B21127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94DB15D7-B848-4569-945D-20BCA1B21127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{6304A9DE-DCC8-436B-9870-32C3D10A2575} = {4F2C17E0-4008-4BF4-9601-78F5B8E044DF}
 		{21E475FE-B82D-486C-9865-0E237FFB9E67} = {91DA4B96-B7CC-4B05-90FB-2F8392661EE9}
 		{BBBFABF6-FDED-48E3-A87D-DF9F8FCA49BC} = {21E475FE-B82D-486C-9865-0E237FFB9E67}
+		{94DB15D7-B848-4569-945D-20BCA1B21127} = {21E475FE-B82D-486C-9865-0E237FFB9E67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76D3CBE7-4378-487B-8CBA-A1344D6957D2}
